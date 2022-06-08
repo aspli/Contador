@@ -1,0 +1,36 @@
+.contador{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#menos{
+    border-color: red;
+    color: red;
+    margin-right: 20px;
+}
+
+#mais{
+    border-color: green;
+    color: green;
+    margin-left: 20px;
+}
+
+#currentNumber{
+    font-size: 32px;
+}
